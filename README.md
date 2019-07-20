@@ -19,6 +19,10 @@ You can learn more about each of these components within the [Quick Start Guide]
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
+
+#instalar en maquina electron 3.0.13
+sudo npm install -g electron@3.0.13 --unsafe-perm=true --allow-root --arch=armv7l --platform=linux
+
 # Clone this repository
 git clone https://github.com/electron/electron-quick-start
 # Go into the repository
